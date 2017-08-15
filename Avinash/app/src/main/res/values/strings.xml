@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Avinash</string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="texmatter">My name is Avinash Kumar Yadav. I am from Ghazipur, Uttar Pradesh. I have passed my Intermediate
+        Examination from Sant Atulanand Convent School, Gilat Bazar, Varanasi. I am pursuing bachelor of technology in
+        Computer Science And Engineering from Juggilal Kamlapath Institute Of Applied Physics And Technology, University of Allahabad.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mans"><p>avinashyadav060298@gmail.com </p>
+        <p>9839......</p>
+  </string>
+    <string name="quotetext">
+        <p>1.<b>Choose kind over Cool\n</b></p>
+        <p>2.<b>Nothing is interesting if you are not interested\n</b></p>
+        <p>3.<b>Silence is Golden</b></p>
+    </string>
+    <string name="hobbies">
+        <p>(i).Playing Cricket\n</p><p>(ii).Listening Songs\n</p><p>(iii).<b>Dancing when no one sees\n</b></p>
+        <p>(iv).Wandering many different places\n</p>
+        <p>(v).Studying sometimes when in good mood\n</p>
+        <p>(vi).<b>Singing loudly thinking no one cares\n</b></p>
+        <p>(vii).Reading Philosophical Books </p>
+    </string>
+    <string name="food">
+        <p>Potato, Brinjal, Lady\'s Finger, Saag, Uttapam, <b>except South Indian food I eat everything</b></p>
+    </string>
+    <string name="dream"><p><b>To give the world as much happiness as I can!</b></p></string>
+    <string name="friendname"><p><b>Praveen,Vishal, Atul , Harsh, Astha, Harshita, Anand, Sanskriti </b></p></string>
+    <string name="kal_ho_na_ho"><p>(i).Kal Ho Na Ho\n</p>
+    <p>(ii). Sun Sugana Re\n</p>
+    <p>(iii). Mai re Mai\n</p>
+    <p>(iv). Maa (Taare Zameen Par)\n</p>
+    <p>(v). Rahi Manwa\n </p>
+    <p>(vi). In Dino\n</p>
+    <p>(vii). Afreen Afreen</p></string>
+    <string name="movie">
+        <p>(i).Parched\n</p>
+        <p>(ii).The Shawshank Redemption\n</p>
+        <p>(iii).Pink\n</p>
+        <p>(iv).Lakshmi\n
+        </p>
+        <p>(v).Dosti\n</p>
+        <p>(vi).Anand</p>
+    </string>
+</resources>

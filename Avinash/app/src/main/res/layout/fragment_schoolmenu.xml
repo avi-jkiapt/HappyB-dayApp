@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avinashkumaryadav.avinash.Schoolmenu">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="@dimen/horizontalpadd"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textSize="28sp"
+            android:paddingBottom="4sp"
+            android:text="1: St. John's School, Ghazipur      "/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sant"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textSize="28sp"
+            android:text="2: Sant Atulanand Convent School, Gilat Bazar Varanasi      "/>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

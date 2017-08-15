@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avinashkumaryadav.avinash.menuAvi">
+
+    <ScrollView android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:paddingRight="@dimen/horizontalpadd"
+            android:paddingLeft="@dimen/horizontalpadd">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="192dp"
+
+                android:layout_centerHorizontal="true"
+                android:id="@+id/img"
+                android:layout_height="192dp"
+                android:src="@drawable/avina"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="@string/texmatter"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avinashkumaryadav.avinash.Songsmenu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Kal Ho Na Ho"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/kal"
+
+                android:fontFamily="cursive"
+                android:textSize="24sp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+
+                android:layout_toRightOf="@id/kal"
+                android:id="@+id/play1"
+
+                />
+            <Button
+                android:id="@+id/pause2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pause"
+                android:layout_toRightOf="@id/play1"/>
+            <TextView
+                android:layout_below="@id/kal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Favourite Songs:"
+                android:textSize="32sp"
+                android:id="@+id/fvsong"
+                android:fontFamily="cursive"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_below="@id/fvsong"
+                android:textSize="24sp"
+                android:id="@+id/songtext"
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kal_ho_na_ho"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/songtext"
+                android:text="Favourite Movies:"
+                android:textSize="32sp"
+                android:fontFamily="cursive"
+                android:id="@+id/fvmovie"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="cursive"
+                android:layout_below="@id/fvmovie"
+                android:text="@string/movie"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
